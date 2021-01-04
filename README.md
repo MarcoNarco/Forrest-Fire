@@ -1,23 +1,23 @@
 
 Your program must provide the following functionality and adhere to the following constraints:
 
- Allow the user to input the file describing the initial condition of the forest
- 	Do NOT hardcode the filename into your program
-	The first line will specify how many days a tree burns for
-	All other lines will be comma delimited containing the following characters:
- ‘T’ is a tree that is not on fire
- ‘F’ is a tree that is on fire
- ‘B’ is a tree that has already burnt down
- ‘‘is an empty patch of land
+Allow the user to input the file describing the initial condition of the forest
+ 	  Do NOT hardcode the filename into your program
+	  The first line will specify how many days a tree burns for
+	  All other lines will be comma delimited containing the following characters:
+ (T) is a tree that is not on fire
+ (F) is a tree that is on fire
+ (B) is a tree that has already burnt down
+ ('')is an empty patch of land
 	The forest can be any sized rectangle
 	Assume the top of the grid is North
  Allow the user to input the file describing the weather forecast
 	Do NOT hardcode the filename into your program o Each line will specify the weather for that day:
- ‘N’ indicates the wind is blowing to the North
- ‘S’ indicates the wind is blowing to the South
- ‘W’ indicates the wind is blowing to the West
- ‘E’ indicates the wind is blowing to the East
- ‘R’ indicates that it is raining and there is no wind blowing
+ (N) indicates the wind is blowing to the North
+ (S) indicates the wind is blowing to the South
+ (W) indicates the wind is blowing to the West
+ (E) indicates the wind is blowing to the East
+ (R) indicates that it is raining and there is no wind blowing
 	If the weather is not specified for a day, then assume it is the same as the previous day
 	The weather will always be specified for Day 0
 
