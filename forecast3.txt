@@ -1,0 +1,5 @@
+Day 0:N
+Day 3:W
+Day 6:S
+Day 8:R
+Day 9:N
